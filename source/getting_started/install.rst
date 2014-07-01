@@ -100,9 +100,16 @@ Lastly, we create a `symbolic link` to use at the command line.
     sudo ln -s /opt/Sublime\ Text\ 2/sublime_text /usr/bin/sublime
 
 
+That's it! Try out Sublime Text for the first time by using your newly created link.
+
+::
+
+    sublime
+
+
 In Ubuntu, if you also want to add Sublime Text to the Unity luncher, read on.
 
-First we need to create a new file.
+First we need to create a new file. Be sure you have run sublime at least once before trying the next step. Otherwise, you run the risk of root owning your sublime text configuration files!
 
 ::
 
